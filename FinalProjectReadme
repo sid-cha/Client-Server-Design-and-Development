@@ -1,0 +1,33 @@
+README 
+PROJECT 3(Using ASP.NET CORE MVC to consume a web services)
+
+Followings sections are shown using the reference from "https://ist.rit.edu/api/"
+
+(a). Basic IST introduction(Aboutpage/Homepage)
+(b). IST Faculty informations
+(c). IST Staff informations
+(d). Degree Programs offered
+(e). Minors and Immersions
+(f). Employer Information with focus on cooperative education and full-time employers.
+(g). Map using iFrame
+
+
+	
+1. Home Page(Home Controller):
+For the home page/landing page, I have used carousel and particle.js javascript.
+The use of About end point is also being used integrated with the home page.
+
+2. The implementation of faculty and staff are done in a nav-bar our people. Seperate controller,model,services,ViewModel  was made for both faculty(facultyController) and staff(controller). 
+	
+3. The implementation of undergraduate and graduate degree is done under Degree navigation where both the components uses accordion js plugin. Again the rules regarding MVC were strictly followed and proper implementation of Dependency Injection was implemented.
+
+4. The minors implementation was also done using accordion plugin and all the requirements for MVC architecture and dependency injection was applied.
+
+5. The employement section uses a concept of dynamic view where both the views from employment and co-op can be implemented in a single .cshtml file.
+The use of expando object was done in this section.
+
+6. The Research section was implemented using Tabular(tab) plugin of jquery. It shows research done by different faculty and their citations. The section also shows research work performed based on Research area of Interest.   
+
+7. Extra work:
+For the Employment tab. I have used dynamic view which was not covered as a concept in the class. Using this I was able to call both the views of Employment table and Co-op table in a single .cshtml file.
+	
